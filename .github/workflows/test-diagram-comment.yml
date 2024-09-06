@@ -18,6 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: miketrebilcock/python-code-visualiser@beta-1
+    - uses: miketrebilcock/python-code-visualiser@beta-2
       with:
         gh-token: ${{ secrets.gh_token }}
