@@ -17,6 +17,7 @@ jobs:
     name: Example Diagrams
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4
     - uses: miketrebilcock/python-code-visualiser@beta-1
       with:
         gh-token: ${{ secrets.GITHUB_TOKEN }}
