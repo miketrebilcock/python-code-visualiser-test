@@ -17,6 +17,6 @@ jobs:
     name: Example Diagrams
     runs-on: ubuntu-latest
     steps:
-    - uses: miketrebilcock/python-code-visualizer@beta-1
+    - uses: miketrebilcock/python-code-visualiser@beta-1
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        gh-token: ${{ secrets.GITHUB_TOKEN }}
