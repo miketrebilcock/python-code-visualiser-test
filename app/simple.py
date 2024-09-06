@@ -8,3 +8,6 @@ class Simple:
     
     def sub(self):
         return self.x - self.y
+    
+    def mul(self):
+        return self.x * self.y
